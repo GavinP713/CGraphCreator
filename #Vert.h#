@@ -1,0 +1,18 @@
+#ifndef VERT_H
+#define VERT_H
+
+#include <vector>
+#include "Vert.h"
+
+struct Edge {
+  Vert to;
+  int value;
+};
+
+class Vert {
+ public:
+  vector<Edge> edges;
+  int value;
+};
+
+#endif

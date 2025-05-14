@@ -1,0 +1,11 @@
+struct Verrt {
+
+};
+
+struct edge {
+
+};
+
+int main() {
+  return 0;
+}
